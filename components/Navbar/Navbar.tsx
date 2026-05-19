@@ -7,6 +7,7 @@ export default function Navbar() {
     { href: "/dashboard", label: "Dashboard" },
     { href: "/meals", label: "Meals" },
     { href: "/categories", label: "Categories" },
+    { href: "/profile", label: "Profile" },
   ];
 
   return <NavbarClient navLinks={navLinks} authButton={<AuthButton />} />;
